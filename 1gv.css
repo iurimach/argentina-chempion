@@ -1,0 +1,142 @@
+.moedani{
+    width: 900px;
+    height: 600px;
+    position: absolute;
+}
+
+.messi{
+    width: 70px;
+    position: relative;
+    top: 250px;
+    left: 200px;
+    animation-name: sirbili;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    z-index: 10;
+}
+@keyframes sirbili{
+    0%{top:250px; left: 200px; }
+    20% {top:250px; left: 250px; }
+    30% {top:250px; left: 300px; }
+    40% {top:230px; left: 350px; }
+    50% {top:250px; left: 400px; }
+    60% {top:250px; left: 450px; }
+    70% {top:250px; left: 500px; }
+    80% {top:250px; left: 550px; }
+    90% {top:250px; left: 600px; }
+    
+    100 % {top:250px; left: 650px; }
+}
+
+.burti{
+    width: 40px;
+    position: relative;
+    top: 220px;
+    left: 270px;
+    animation-name: burti;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+}
+@keyframes burti{
+    0%{top:220px; left: 250px; }
+    20% {top:220px; left: 300px; }
+    30% {top:220px; left: 370px; }
+    40% {top:200px; left: 400px; }
+    50% {top:220px; left: 470px; }
+    60% {top:220px; left: 500px; }
+    70% {top:220px; left: 570px; }
+    80% {top:220px; left: 600px; }
+    90% {top:200px; left: 770px; }
+    
+    
+
+}
+.mekare{
+    width: 110px;
+    position: relative;
+    top: 150px;
+    left: 600px;
+    animation-name:mekare; 
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes mekare{
+    0% {top:150px; left: 620px; }
+    20% {top:150px; left: 620px; }
+    30% {top:150px; left: 625px; }
+    40% {top:150px; left: 630px; }
+    50% {top:150px; left: 650px; }
+    60% {top:150px; left: 660px; }
+    70% {top:150px; left: 685px; }
+    80% {top:150px; left: 710px; }
+    90% {top:90px; left: 710px; }
+
+}
+.mcveli1{
+    width: 70px;
+    position: relative;
+    top: 110px;
+    left: 400px;
+    animation-name:mcveli1; 
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes mcveli1{
+
+    0% {top:110px; left: 400px; }
+    20%  {top:110px; left: 420px; }
+    40% {top:80px; left: 350px; }
+    50% {top:100px; left: 380px; }
+    60% {top:100px; left: 420px; }
+    70% {top:110px; left: 470px; }
+    80% {top:110px; left: 510px; }
+    90% {top:110px; left: 550px; }
+
+}
+
+.mcveli2{
+    width: 140px;
+    position: relative;
+    top: -80px;
+    left: 400px;
+    animation-name:mcveli2; 
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes mcveli2{
+    0% {top:-80px; left: 400px; }
+    20%  {top:-80px; left: 420px; }
+    40% {top:-80px;; left: 350px; }
+    50% {top:-80px; left: 380px; }
+    60% {top:-80px;; left: 420px; }
+    70% {top:-80px; left: 440px; }
+    80% {top:-80px; left: 480px; }
+    90% {top:-80px;; left: 530px; }
+
+}
+
+.angarishi{
+    width: 100px;
+    background-color: brown;
+    position: relative;
+    top: -350px;
+    left: 400px;
+    text-align: center;
+    animation-name: angarishi;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes angarishi{
+    20% {background-color: brown;}
+    80% {background-color: brown;}
+    90% {background-color:rgb(20, 148, 3) }
+    100% {background-color:rgb(20, 148, 3) }
+
+
+}
